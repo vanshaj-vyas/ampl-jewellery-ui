@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4f1;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #A64F59 ;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    font-size: 24spx;
+    font-weight: bold;
+    color: #f0e6e0;
+    
+}
+.nav {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav a {
+    color: #f0e6e0;    
+    text-decoration: none;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    color: #f0e6e0;
+}
+
+.icons svg {
+    width: 24px;
+    height: 24px;
+}
+
+.hero {
+    background-color: #f0e6e0;
+    padding:0;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 600px;
+    min-height: 500px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.category-grid, .trends-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.category-grid {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.trends-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.category-item, .trend-item {
+    text-align: center;
+}
+
+.category-item img, .trend {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+.trend-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.category-item p {
+    color: #8E403A ;
+    font-size: 16px;
+}
+
+.trend-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.trend-item:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+.trend-item h2 {
+    color: #8E403A;
+    margin: 5px 0 5px;
+}
+
+.trend-item p {
+    font: left;
+    color: #4f0b0b;
+    font-size: 17px;
+}
+
+.trend-item button{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #890724;
+    color: white;
+    margin: 15px 0 5px;
+}
+
+.categories, .trends {
+    padding: 40px 0;
+   
+}
+.elite{
+    padding: 40px 0;
+    text-align: center;
+}
+.elite h2{
+    color:#8E403A; 
+}
+
+.trends {
+    background-color: #f0e6e0;
+}
+
+footer {
+    background-color: #A64F59;
+    color:white;
+    padding: 40px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-column h3, .footer-column h4 {
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width: 768px) {
+    .category-grid, .trends-grid, .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .category-grid, .trends-grid, .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.n1{
+    width: 100%;
+    height: 420px;
+   
+    text-align: center;
+    font-size:18px ;
+    background-color: white;
+
+    border-bottom-left-radius : 5%;
+    border-bottom-right-radius : 5%;
+}
+.n1 p {
+    padding: 5px 10px;
+}
+ .n1 button{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #890724;
+    margin-bottom: 10px;
+    color: white;
+  
+}
+
+.n2 img{
+    align-content: center;
+    width: 70%;
+    height: 420px;
+    background-color: white;
+    border-radius : 8%
+    }
+.n2 p{
+    float: right;
+    width: 400px;
+    height: auto;
+    font-size: 24px;
+    align-items: center;
+    margin-top: 150px;
+
+}  
+
+.n3 img{
+    float: right;
+    align-content: center;
+    width: 70%;
+    height: 420px;
+    background-color: white;
+    border-radius : 8%
+    }
+.n3 p{
+    float: left;
+    width: 400px;
+    height: auto;
+    font-size: 24px;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}  
+
+
