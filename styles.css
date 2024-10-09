@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -37,11 +36,11 @@ header .container {
 }
 
 .logo {
-
-    font-size: 24spx;
+    font-family: Cinzel;
+    font-size: 23px;
     font-weight: bold;
     color: #f0e6e0;
-    
+
 }
 .nav {
     width: 100%;
@@ -54,6 +53,7 @@ nav ul {
 
 
 nav a {
+    font-size: 15px;
     color: #f0e6e0;    
     text-decoration: none;
     
@@ -242,92 +242,14 @@ footer {
     margin-top: 150px;
     margin-left: 20px;
 
-}  
+} 
 
-
-
-.parent {
-    background-color: antiquewhite;
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    }
-    .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9 {
-        border-radius: 10px;
-        background-size: cover;
-        background-position: center;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .div1 { 
-        grid-area: 1 / 1 / 3 / 2;
-        width: 300px;
-        height: 400px;
-        background-image: url("https://media.istockphoto.com/id/1276740597/photo/indian-traditional-gold-necklace.jpg?s=612x612&w=0&k=20&c=OYp1k0OVJObYq9hqVK_r6NwYa_W54km4nya1R-ovIUY="); }
-    .div2 { 
-        grid-area: 1 / 2 / 3 / 3; 
-        width: 300px;  
-        height: 400px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14="); }
-    .div3 { grid-area: 1 / 3 / 3 / 5;
-        width: 600px;
-        height: 400px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=");}
-
-    .div4 { grid-area: 3 / 1 / 4 / 2;
-        width: 300px;
-        height: 200px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14="); }
-    .div5 { grid-area: 4 / 1 / 5 / 2;
-        width: 300px;
-        height: 200px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=");}
-    .div6 { grid-area: 3 / 2 / 5 / 3;
-        width: 300px;
-        height: 400px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14="); }
-    .div7 { grid-area: 3 / 3 / 4 / 4;
-        width: 300px;
-        height: 200px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14="); }
-    .div8 { grid-area: 4 / 3 / 5 / 4;
-        width: 300px;   
-        height: 200px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14="); }
-    .div9 { grid-area: 3 / 4 / 5 / 5;
-        width: 300px;
-        height: 400px;
-        background-image: url("https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=");
-     }
-
-
-     .p1 {
+.p1 {
         width: 100%;
         height: auto;
         background-color: rgb(137, 222, 222);
-     }
-     .pd1 {
-        width: 100%;
-        height: 700px;
-        background-color: #f8f4f1;
-        display: flex;
-    }
-    .pd1 p{
-        justify-content: left;
-        font-size: 20px;
-        color: #890724;
-    }
-    .pd1 img{
-        
-        border-radius: 10px;
-        
-    }
-    .parent3 {
+}
+.parent3 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -341,7 +263,7 @@ footer {
     
     .d1 {
         max-width: 600px;
-        text-align: center;
+
     }
     
     .f1 {
@@ -349,12 +271,17 @@ footer {
         flex-wrap: wrap;
         gap: 20px;
         padding: 10px;
-        justify-content: center;
+        justify-content: space-around;
     }
     
     .f1 div {
         flex: 1 1 300px;
         text-align: center;
+    }
+    .f1 img {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
     }
     
     .hi1 {
@@ -366,4 +293,113 @@ footer {
         font-size: 40px; 
         font-family: Cinzel;
     }
+    .hi1 hr{
+        background-color: brown;
+    }
+
+
+    .f2 {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .mi {
+        flex: 1 1 300px;
+        
+    }
+    .mi img{
+        border-radius: 10px;
+        width:  300px;
+        height: auto;
+        
+    }
+
+
+    .g1 {
+        background-color: antiquewhite;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        }
+    .item1, .item2, .item3, .item4{
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+            
+    
+         
+        }
+    .item1{
+        grid-area: 1 / 1  / 4 /2;
+        background-image: url("https://www.tarinika.in/cdn/shop/files/FNX3440X1_5000x.jpg?v=1714639257");
+        width: 475px;
+        height: 520px;
+    }
+    .item2{
+        grid-area: 1 / 2  / 2 / 3;
+        background-image: url("https://media.istockphoto.com/id/1276740597/photo/indian-traditional-gold-necklace.jpg?s=612x612&w=0&k=20&c=OYp1k0OVJObYq9hqVK_r6NwYa_W54km4nya1R-ovIUY=");
+        width: 475px;
+        height: 250px;
+    }
+    .item3{
+        grid-area: 2 / 2 / 3 / 3;
+        background-image: url("https://media.istockphoto.com/id/1276740597/photo/indian-traditional-gold-necklace.jpg?s=612x612&w=0&k=20&c=OYp1k0OVJObYq9hqVK_r6NwYa_W54km4nya1R-ovIUY=");
+        width: 475px;
+        height: 250px;
+    }
+    .item4{
+        grid-area: 1 / 3 / 4 / 4;
+        background-image: url("https://www.tarinika.in/cdn/shop/files/ANX3550XRY_5000x.jpg?v=1724757375");
+        width: 475px;
+        height: 520px;
+    }
+    
+    @media (max-width: 750px){
+        .g1{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .item1{
+            width: 100%; 
+            height: 420px;
+        }
+        .item2{
+            width: 100%; 
+            height: 250px;
+        }.item3{
+            width: 100%; 
+            height: 250px;
+        }.item4{
+            width: 100%; 
+            height: 420px;
+        }
+    }
+    
+    
+    @media (max-width: 500px){
+        .g1{
+            grid-template-columns: repeat(1, 1fr);
+            width: 100%;
+        }  
+        .item1{
+            width: 100%; 
+            height: 420px;
+        }
+        .item2{
+            width: 100%; 
+            height: 250px;
+        }.item3{
+            width: 100%; 
+            height: 250px;
+        }.item4{
+            width: 100%; 
+            height: 420px;
+        }
+}
+    
     
